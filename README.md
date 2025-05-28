@@ -23,13 +23,29 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Simple Weather Service that integrates external APIs for reporting weather conditions.
+
+
+## DECISIONS MADE
+For external API, I decided to use WeatherAPI instead of OpenWeatherMap because from my research, the APIs provided by WeatherAPI suit the use cases specified in the requirements document provided better.
+
+I decided to wrap all my responses in a base response dto to ensure consistency across all my response bodies. 
+
 
 ## Project setup
+Step 1: Run npm install to install necessary dependencies 
 
 ```bash
 $ npm install
 ```
+
+
+Step 2: Use .env.example to create a .env file and replace with valid api key and valid api url
+
+```bash
+$ npm install
+```
+
 
 ## Compile and run the project
 
