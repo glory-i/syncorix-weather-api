@@ -26,7 +26,7 @@
 Simple Weather Service that integrates external APIs for reporting weather conditions.
 
 
-## DECISIONS MADE
+## Decisions Made
 For external API, I decided to use WeatherAPI instead of OpenWeatherMap because from my research, the APIs provided by WeatherAPI suit the use cases specified in the requirements document provided better.
 
 I decided to wrap all my responses in a base response dto to ensure consistency across all my response bodies. 
