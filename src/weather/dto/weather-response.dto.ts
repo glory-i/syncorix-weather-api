@@ -1,4 +1,4 @@
-export interface WeatherResponseDto {
+export interface   WeatherResponseDto {
     location: Location
     current: Current
     error: WeatherError | null
@@ -11,14 +11,14 @@ export interface WeatherResponseDto {
   
 
   export interface Location {
-    name: string
-    region: string
-    country: string
-    lat: number
-    lon: number
-    tz_id: string
-    localtime_epoch: number
-    localtime: string
+    name: string | null
+    region: string | null
+    country: string | null
+    lat: number | null
+    lon: number | null
+    tz_id: string | null
+    localtime_epoch: number | null
+    localtime: string | null
   }
   
   export interface Current {

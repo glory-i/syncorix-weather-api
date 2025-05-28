@@ -294,14 +294,7 @@ export class WeatherService {
 
     }
 
-
-    
-
-  
-
   }
-
-
 
 }
 
